@@ -1,0 +1,14 @@
+[package]
+edition = "2021"
+name = "parallel-letter-frequency"
+version = "0.0.0"
+
+[dependencies]
+itertools = "0.10.5"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
